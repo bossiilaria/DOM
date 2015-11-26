@@ -3,8 +3,26 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+* {
+	color: white;
+	}
+body {
+	background: blue;
+}
+th {
+	font-family: "Helvetica", sans-serif;
+}
+h1 {
+	color: blue;
+}
+span {
+	color: red;
+}
+div {
+	background-color: yellow;
+	padding: 20px;
 
-
+}
 
 
 
