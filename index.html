@@ -22,52 +22,60 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-      <div>
-        <h1>My <span>W</span> friends</h1>
+      <button onclick = "myFunction()">Start</button>
+      <button onclick = "stopMyFunction()">Stop</button>
+
+      <div class = "header">
+        <h1 id="heading">My <span>W</span> friends</h1>
       </div>
-      <table>
-        <thead>
-          <tr>
-            <th>Attribute</th>
-            <th>Avatar</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <td>
-            <ul>
-              <li id="pink">pink</li>
-              <li>INNOCENT</li>
-            </ul>
-          </td>
-          <td>
-            <img src="img/marcimus.png" id="avatar-1" alt="Marcimus, A pink, innocent avatar">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li id="green">green</li>
-              <li>ANGRY</li>
-            </ul>
-          </td>
-          <td>
-            <img src="img/old-spice-man.png" id="avatar-2" alt="Old SpiceMann, A green, angry avatar">
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <ul>
-              <li id="orange">orange</li>
-              <li>MULTI-LEGGED</li>
-            </ul>
-          </td>
-          <td>
-            <img src="img/orange-juice-squid.png" id="avatar-3" alt="Orange Juice Squid, An orange, multi-legged avatar">
-          </td>
-        </tr>
-        </tbody>
-      </table>
+      <div class = "images">
+          <table>
+            <thead>
+              <tr>
+                <th>Attribute</th>
+                <th>Avatar</th>
+                <th id = "ID">ID Card</th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li class="color" id="pink">pink</li>
+                  <li>INNOCENT</li>
+                  <div class="name-tag">
+                  </div>
+                </ul>
+              </td>
+              <td>
+                <img src="img/marcimus.png" id="avatar-1" alt="Marcimus, A pink, innocent avatar">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li class="color" id="green">green</li>
+                  <li>ANGRY</li>
+                </ul>
+              </td>
+              <td>
+                <img src="img/old-spice-man.png" id="avatar-2" alt="Old SpiceMann, A green, angry avatar">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li class="color" id = "orange">orange</li>
+                  <li>MULTI-LEGGED</li>
+                </ul>
+              </td>
+              <td>
+                <img src="img/orange-juice-squid.png" id="avatar-3" alt="Orange Juice Squid, An orange, multi-legged avatar">
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
